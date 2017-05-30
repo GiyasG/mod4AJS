@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Categories view</title>
+
+<link rel="stylesheet" href="styles/bootstrap.min.css">
+<link rel="stylesheet" href="styles/main.css">
+
+<script src="lib/jquery-3.1.0.min.js"></script>
+<script src="lib/angular.min.js"></script>
+
+<script src="src/menuapp.module.js"></script>
+
+<!-- 'MenuApp' module artifacts -->
+<script src="src/shoppinglist.component.js"></script>
+<script src="src/shoppinglist/shoppinglist.controller.js"></script>
+<script src="src/shoppinglist/shoppinglist.factory.js"></script>
+<script src="src/shoppinglist/weightlossfilter.service.js"></script>
+
+
+  </head>
+  <body ng-app="MenuApp">
+    <ui-view></ui-view>
+  </body>
+</html>
