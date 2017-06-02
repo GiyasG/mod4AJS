@@ -1,28 +1,27 @@
 * {
   font-family: sans-serif;
+
 }
 
-h1 {
-  margin-bottom: 30px;
+h1, h2, h3, h4 {
+  padding-top: 20px;
   clear: both;
 }
 
-li {
-  margin-bottom: 10px;
-}
-
 span {
-  font-family: cursive;
-  font-size: 0.8em;  
+ color: green;
 }
 
-input[type="text"] {
-  margin-top: 10px;
-  width: 200px;
-  float: left;
+ol {
+  padding-top: 10px;
 }
-.narrow-button {
-  float: left;
-  margin-top: 10px;
-  margin-left: 10px;
+
+li {
+  font-size: 1em;
+  padding-bottom: 5px;
+}
+
+a[ui-sref] {
+  cursor: pointer;
+  margin-right: 10px;
 }

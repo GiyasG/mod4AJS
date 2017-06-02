@@ -1,4 +1,4 @@
 (function () {
 'use strict'
-angular.module('MenuApp', ['Data']);
+angular.module('MenuApp', ['ui.router', 'data']);
 })();
